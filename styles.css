@@ -1,0 +1,138 @@
+body{
+    background-image: url(./images/background.jpg);
+    margin: 8px 8px 0px 8px;
+}
+.logoMK::before{
+    display: inline-block;
+    content: url(./images/mk.svg);
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+h1{
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+}
+button{
+    cursor: pointer;
+    background-color: yellow;
+    color: blue;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 10px;
+    width: 150px;
+}
+.random{
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: darkred;
+    color: white;
+    display: inline-block;
+    margin: 5px 0px 21.440px 20px ;
+    height: 30px;
+}
+.random:hover{
+    background-color: rgb(93, 0, 0);
+}
+.random:active{
+    background-color:  rgb(37, 238, 27);
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 h1{
+    margin-top: 10px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cartaFighter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    /*background-image: url(./images/barakaT.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;*/
+}
+.marcoSelect{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    cursor: pointer;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+.marcoSelect h2{
+    display: none;
+    color: rgb(37, 238, 27);;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+.marcoSelect:hover{
+    outline: 10px solid rgb(37, 238, 27);
+    animation: blink 0.3s linear infinite;
+}
+
+.marcoSelect:hover .mostrar {
+    display: initial;
+}
+
+h2{
+    color: yellow;
+    text-transform: uppercase;  
+    font-family: 'Kalam', cursive; 
+}
+.selectedBox{
+    width: 830px;
+    height: 300px;
+    background-image: url(./images/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
+}
+.seccion1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seccion2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    
+}
+.seccion2 p {
+    color: white;
+    margin-right: 100px;
+}
