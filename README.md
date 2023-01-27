@@ -1,4 +1,4 @@
-# MKcharacters
+# Mortal Kombat characters UI
 Character selector screen with vintage Mortal Kombat theme design
 
 Just for fun: MORTAL KOMBAT SELECT CHARACTER UI
