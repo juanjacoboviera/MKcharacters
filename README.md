@@ -2,6 +2,7 @@
 Character selector screen with vintage Mortal Kombat theme design
 
 Just for fun: MORTAL KOMBAT SELECT CHARACTER UI
+
 The UI mock character selector screen is designed to imitate the menu from the classic 90s video game, Mortal Kombat. The interface includes all of the characters from the game and is set up in a grid layout, with each character represented by an image with its name on it.
 
 When the mouse cursor is hovered over a character, the cursor will change to a green frame that blinks and follows the cursor. This green frame highlights the selected character and makes it easy for the user to identify which character they are selecting.
